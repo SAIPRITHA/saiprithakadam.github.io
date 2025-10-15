@@ -3,128 +3,113 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saipritha Kadam – Digital IC Design Engineer</title>
+  <title>Saipritha Kadam – VLSI Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      margin: 0;
-      background: #fff;
-      color: #222;
-    }
-    header {
-      background: #003366;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    nav {
-      background: #eee;
-      display: flex;
-      justify-content: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #003366;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #003366;
-      border-bottom: 2px solid #eee;
-    }
-    footer {
-      background: #f2f2f2;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f4f6f8; color: #222; }
+    header { background: #002244; color: white; padding: 2rem; text-align: center; }
+    nav { background: #ddd; text-align: center; padding: 0.7rem; }
+    nav a { margin: 0 15px; color: #002244; text-decoration: none; font-weight: bold; }
+    section { max-width: 960px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    h2 { color: #002244; border-bottom: 2px solid #eee; padding-bottom: 0.3rem; }
+    ul { padding-left: 1.5rem; }
+    footer { text-align: center; padding: 1rem; background: #eee; font-size: 0.9rem; margin-top: 3rem; }
   </style>
 </head>
 <body>
 
 <header>
   <h1>Saipritha Kadam</h1>
-  <p>Designing Tomorrow: Silicon Stories by Saipritha</p>
-  <p>Email: skadam19@asu.edu | +1 (602) 849-4801 | 
-    <a href="https://linkedin.com/in/saipritha-kadam-a0a5441bb" style="color:#aaddff">LinkedIn</a>
-  </p>
+  <p>Digital IC, ASIC, Physical Design, Embedded & Analog Systems</p>
+  <p><a href="mailto:skadam19@asu.edu" style="color:#aad">skadam19@asu.edu</a> | (602) 849-4801 | 
+     <a href="https://linkedin.com/in/saipritha-kadam-a0a5441bb" style="color:#aad">LinkedIn</a></p>
 </header>
 
 <nav>
   <a href="#education">Education</a>
   <a href="#experience">Experience</a>
   <a href="#projects">Projects</a>
-  <a href="#volunteer">Volunteer</a>
+  <a href="#skills">Skills</a>
+  <a href="#recommendations">Recommendations</a>
   <a href="#contact">Contact</a>
 </nav>
 
 <section id="education">
   <h2>Education</h2>
   <ul>
-    <li><strong>M.S.E., Electrical Engineering</strong> – Arizona State University (2026)</li>
-    <li><strong>B.E., Electronics and Communication</strong> – Jain College of Engineering (2022)</li>
-    <li><strong>Diploma</strong> – Electronics and Communication Engineering</li>
+    <li>M.S.E. in Electrical Engineering (VLSI & Hardware Systems), Arizona State University, GPA: 3.17</li>
+    <li>B.E. in Electronics & Communication, Jain College of Engineering, GPA: 3.5</li>
+    <li>Diploma in Electronics & Communication Engineering</li>
   </ul>
 </section>
 
 <section id="experience">
   <h2>Experience</h2>
-  <p><strong>Graduate Service Assistant – ASU</strong></p>
   <ul>
-    <li>Course Support: Digital Logic, SoC Design, RTL & UVM Verification</li>
-    <li>Mentored 100+ students in timing closure, waveform debug, and synthesis</li>
-  </ul>
-  <p><strong>Intern – Emertxe Technologies</strong></p>
-  <ul>
-    <li>Developed UART, SPI, I2C drivers with FreeRTOS</li>
-    <li>Built event logger for automotive black box with crash persistence</li>
+    <li><strong>Graduate Service Assistant – ASU:</strong> Digital/SoC project labs, UVM testbenches, PrimeTime analysis</li>
+    <li><strong>Intern – Emertxe:</strong> Embedded RTOS, UART/SPI drivers, FreeRTOS logger</li>
+    <li><strong>Engineer – Shreyash:</strong> LCD/RTC logger, microcontroller firmware</li>
+    <li><strong>ML Intern – Compsoft:</strong> Twitter sentiment analysis (Python, NLP)</li>
   </ul>
 </section>
 
 <section id="projects">
-  <h2>Projects</h2>
+  <h2>Key Projects</h2>
 
-  <h3>VLSI Digital Design</h3>
+  <h3>Digital IC Design</h3>
   <ul>
-    <li>GCN Hardware Accelerator – RTL-to-GDSII flow, 7nm, PrimeTime verified</li>
-    <li>2-bit Mirror Adder – Full ASIC flow, STA, SPICE power/timing validation</li>
-  </ul>
-
-  <h3>Embedded and Software</h3>
-  <ul>
-    <li>Car Black Box Logger – Event capture using RTC, EEPROM, LCD on PIC</li>
+    <li>GCN Accelerator (7nm RTL-to-GDSII, PrimeTime-verified)</li>
+    <li>2-bit Mirror Adder, BUFx12 Standard Cell (ASAP7)</li>
+    <li>Custom Cache Policy in Gem5 (LRUIPV)</li>
   </ul>
 
   <h3>Analog Design</h3>
   <ul>
-    <li>LDO Regulator – Spectre-based PSRR, line regulation, and transient sim</li>
+    <li>Folded Cascode Op-Amp, BiCMOS Amp, Bandgap Reference</li>
+    <li>LDO Regulator (TSMC 0.3µm), Spectre-based simulations</li>
   </ul>
 
-  <h3>Silicon Stories</h3>
+  <h3>Embedded Systems</h3>
   <ul>
-    <li>Technical blog space (coming soon) — Deep dives into RTL design, timing closure, physical-aware layout</li>
+    <li>Car Black Box Logger (EEPROM, RTC, CAN, RTOS)</li>
+    <li>CNC Plotter with NLP toolchain</li>
+  </ul>
+
+  <h3>Software Tools</h3>
+  <ul>
+    <li>Mini Shell – Linux command parser with pipes</li>
+    <li>Inverted Search – Hashed file indexer</li>
+    <li>LSB Steganography – BMP image data encoding</li>
   </ul>
 </section>
 
-<section id="volunteer">
-  <h2>Volunteer</h2>
-  <p>Assisted Digital IC labs at Jain College with Verilog simulation, RTL synthesis, and tool setup.</p>
+<section id="skills">
+  <h2>Skills & Tools</h2>
+  <ul>
+    <li><strong>Languages:</strong> Verilog, SV, C/C++, Python, Shell, Tcl</li>
+    <li><strong>Tools:</strong> Virtuoso, Spectre, Innovus, DC/PT, ICC2, PrimeTime, Questa</li>
+    <li><strong>Platforms:</strong> Ubuntu, Git, FPGA, ModelSim, MATLAB</li>
+    <li><strong>Design:</strong> STA, PnR, CTS, SPICE, UVM, .lib, .measure</li>
+  </ul>
+</section>
+
+<section id="recommendations">
+  <h2>Recommendations</h2>
+  <ul>
+    <li><strong>Mr. Jayakumar (Emertxe):</strong> Top 10%, great hands-on RTOS designer</li>
+    <li><strong>Dr. Salma:</strong> Strong ML project delivery, very innovative</li>
+    <li><strong>Dr. Krupa (HoD):</strong> Technically brilliant, CNC, NLP tools</li>
+  </ul>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:skadam19@asu.edu">skadam19@asu.edu</a></p>
-  <p>Open to full-time roles in: Digital Design | Physical Design | ASIC | SoC Verification</p>
+  <p>Phone: (602) 849-4801</p>
 </section>
 
 <footer>
-  &copy; 2025 Saipritha Kadam — Built with ❤️ for the silicon world
+  &copy; 2025 Saipritha Kadam – VLSI Design Portfolio
 </footer>
 
 </body>
